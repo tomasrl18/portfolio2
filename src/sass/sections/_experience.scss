@@ -1,0 +1,23 @@
+#experience {
+  .experience-wrapper {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .experience-item {
+    border-left: 0.4rem solid $secondary-color;
+    padding: 0.8rem 0 0.8rem 1.6rem;
+    margin-bottom: 2.4rem;
+
+    h3 {
+      margin-bottom: 0.4rem;
+      font-size: 2.2rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.8rem;
+      color: $dark-grey;
+    }
+  }
+}
